@@ -1,0 +1,60 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Facebook Account Checking</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="index_assets/css/style.css"/>
+    <link rel="stylesheet" href="index_assets/css/responsive.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+
+<div class="hero-background">
+    <div class="container">
+        <div class="header-container header">
+            <a class="navbar-brand logo" href="#"> <span>Facebook Account Checking</span> </a>
+        </div>
+</div>
+
+<div id="team" class="team">
+    <h2 class="team-section-header light text-center" style="color: white;">Check if your HK phone number is in a data breach from Facebook</h2>
+    <div class="team-container row">
+        <div class="col-sm-12">
+            <div class="team-member-text">
+                <input type="text" class="form-control form-control-lg" id="phone" name="phone" placeholder="Please input as 852xxxxxxxx">
+            </div>
+            <br>
+            <input type="submit" class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn" placeholder="Submit" onclick="check()">
+            <br>
+            <div id="true" style="display: none;">
+                <p class="text-danger text-center">Your account is in a data breach from Facebook</p>
+                <p class="text-danger text-center">If possible, please delete your account from facebook or remove any of your private information like phone number and email address from Facebook</p>
+            </div>
+            <div id="false" style="display: none;">
+                <p class="text-success text-center">Your account is not in a data breach from Facebook</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10"><p style="color:white">Please tg: <a href="https://t.me/njainjai">me</a> to remove your data from this database</p></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10"><p style="color:white">Please note that this website is for reference only</p></div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="index_assets/js/script.js"></script>
+</body>
+</html>
